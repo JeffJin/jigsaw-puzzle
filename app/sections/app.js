@@ -23,6 +23,10 @@ angular
         templateUrl: 'sections/main/main.html',
         controller: 'MainCtrl'
       })
+      .when('/raster', {
+        templateUrl: 'sections/image-raster/raster.html',
+        controller: 'RasterCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -9,11 +9,6 @@
  */
 angular.module('jigsawPuzzleApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
 
     function getTileRaster(sourceRaster, x, y, width, height) {
       var targetRaster = new paper.Raster('empty-image');
@@ -66,7 +61,8 @@ angular.module('jigsawPuzzleApp')
       boxPath.lineTo(boxP4);
       boxPath.lineTo(boxP1);
 
-      //var puzzleImage = new paper.Raster('puzzle-image');
+      var puzzleImage = new paper.Raster('puzzle-image');
+      puzzleImage.position = canvas.center;
       //var image = getTileRaster(puzzleImage, 150, 125, 395, 285);
       //
       //var border = boxPath.clone();
