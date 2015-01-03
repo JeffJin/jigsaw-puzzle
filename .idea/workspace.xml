@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21b5f178-bb8c-48cc-98b4-13ed423012f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/sections/image-raster/raster.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/sections/image-raster/raster.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/girl1.jpg" afterPath="$PROJECT_DIR$/app/images/girl1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sections/app.js" afterPath="$PROJECT_DIR$/app/sections/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sections/main/main.js" afterPath="$PROJECT_DIR$/app/sections/main/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sections/image-raster/raster.js" afterPath="$PROJECT_DIR$/app/sections/image-raster/raster.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jigsaw-puzzle.iws" />
@@ -72,8 +67,8 @@
       <file leaf-file-name="raster.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sections/image-raster/raster.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67836255" vertical-offset="252" max-vertical-offset="765">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.18128654" vertical-offset="387" max-vertical-offset="960">
+              <caret line="32" column="62" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -354,7 +349,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420272929141</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="raster image added">
+      <created>1420275401255</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1420275401255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -399,7 +400,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="heart shape added" />
-    <option name="LAST_COMMIT_MESSAGE" value="heart shape added" />
+    <MESSAGE value="raster image added" />
+    <option name="LAST_COMMIT_MESSAGE" value="raster image added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -422,7 +424,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="73813" max-vertical-offset="123645">
           <caret line="4926" column="16" selection-start-line="4926" selection-start-column="4" selection-end-line="4926" selection-end-column="16" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -496,7 +498,7 @@
         <state vertical-scroll-proportion="0.15369262" vertical-offset="73813" max-vertical-offset="123645">
           <caret line="4926" column="16" selection-start-line="4926" selection-start-column="4" selection-end-line="4926" selection-end-column="16" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -590,8 +592,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sections/image-raster/raster.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67836255" vertical-offset="252" max-vertical-offset="765">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.18128654" vertical-offset="387" max-vertical-offset="960">
+          <caret line="32" column="62" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
