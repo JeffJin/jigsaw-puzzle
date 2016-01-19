@@ -1,0 +1,24 @@
+{
+  "name": "jigsaw-puzzle",
+  "version": "1.0.0",
+  "description": "jigsaw-puzzle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffJin/jigsaw-puzzle.git"
+  },
+  "author": "Jeff Jin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeffJin/jigsaw-puzzle/issues"
+  },
+  "homepage": "https://github.com/JeffJin/jigsaw-puzzle#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  }
+}
