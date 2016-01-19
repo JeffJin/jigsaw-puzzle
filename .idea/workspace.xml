@@ -1,46 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21b5f178-bb8c-48cc-98b4-13ed423012f0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jigsaw-puzzle.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jigsaw_puzzle_node_modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.buildignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/core/puzzle-tools/puzzle-service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/empty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/girl1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/girl2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/girl3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/girl4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sections/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sections/image-raster/raster.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sections/image-raster/raster.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sections/main/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/sections/main/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/spec/controllers/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/spec/controllers/main.js" afterPath="" />
+    <list default="true" id="21b5f178-bb8c-48cc-98b4-13ed423012f0" name="Default" comment="raster image added">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header/logo-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header/logo-small@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/tile-wide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/tile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.flowconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/data-fetching.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/getting-started.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/how-to-configure-text-editors.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/react-style-guide.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/recipes/how-to-implement-routing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/recipes/how-to-integrate-disqus.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/recipes/using-npm-and-webpack-as-a-build-tool.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/preprocessor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/App/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/App/App.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/App/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ContactPage/ContactPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ContactPage/ContactPage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ContactPage/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ContentPage/ContentPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ContentPage/ContentPage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ContentPage/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ErrorPage/ErrorPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ErrorPage/ErrorPage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ErrorPage/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Feedback/Feedback.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Feedback/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Footer/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Html/Html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Html/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Link/Link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Link/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/LoginPage/LoginPage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/LoginPage/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Navigation/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/NotFoundPage/NotFoundPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/NotFoundPage/NotFoundPage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/NotFoundPage/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/RegisterPage/RegisterPage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/RegisterPage/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/TextBox/TextBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/TextBox/TextBox.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/TextBox/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/ActionTypes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/about.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/content/privacy.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/DOMUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/Location.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/fetch/fetch.client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/fetch/fetch.server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/fetch/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorators/withStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decorators/withViewport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/browserconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/crossdomain.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/humans.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stores/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/clean.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/copy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/deploy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/lib/fetch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/lib/fs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/run.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/runServer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/start.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="jigsaw-puzzle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +125,28 @@
     <favorites_list name="jigsaw-puzzle" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,6 +162,7 @@
         <option value="$PROJECT_DIR$/app/sections/main/main.js" />
         <option value="$PROJECT_DIR$/app/sections/image-raster/raster.html" />
         <option value="$PROJECT_DIR$/app/sections/image-raster/raster.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -122,6 +209,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -142,7 +230,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,6 +241,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/images" />
       <recent name="$PROJECT_DIR$/app/sections/image-raster" />
     </key>
@@ -221,17 +309,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24894515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3253138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32426777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -241,8 +327,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -269,192 +357,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/sections/main/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/image-raster/raster.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/image-raster/raster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/girl2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/girl3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/girl1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/main/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/image-raster/raster.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/image-raster/raster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="62" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/girl2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="72" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/girl3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/girl1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/main/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/main/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="124" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/main/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="103" selection-start-line="1" selection-start-column="103" selection-end-line="1" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/girl4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/girl2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/girl3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/girl1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5588235">
-          <caret line="28" column="65" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/main/main.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/image-raster/raster.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sections/image-raster/raster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11831442">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
